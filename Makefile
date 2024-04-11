@@ -12,3 +12,7 @@ test:
 run:
 	python main.py
 .PHONY: test
+
+docker_build: 
+
+docker build -t hello-world-printer .
